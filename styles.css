@@ -1,0 +1,319 @@
+
+
+
+body{
+    background-color: black; 
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: #97DECE;
+}
+body img:hover{
+filter: blur(5px);
+position: relative;
+}
+.container{
+    position: relative;
+}
+
+.logo {
+    display: flex;
+    justify-content: center; 
+    background-color: #97DECE !important; 
+ 
+}
+ 
+.content {
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    justify-content: space-between; 
+} 
+.content  div video{
+     width: 100%; 
+}
+.toolbar{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    text-decoration: none;
+    background-color: black;
+    height: 15vh;
+    text-align: center;
+    align-items: flex-end; 
+}
+.toolbar a{
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: #97DECE;
+    text-decoration: none;
+    /* flex-direction: row; */
+    font-size: 2rem;
+    transition: 300ms;
+}
+.toolbar img{
+    height: 10vh; width: 5vw;
+
+}
+
+.bath{
+    background-color: black;
+     height: 40vh; 
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+  padding-top: 10vh;
+}
+.bath img{
+    height: 40vh; width: 20vw;
+    flex-direction: row;
+    border-radius: 20%;
+   
+}
+.bathh1 {
+    display: flex;
+    justify-content: center; 
+  margin-bottom: 2vh;
+  font-size: 2rem;
+}
+.bath .container p{
+    display: flex;
+    text-align: center;
+    justify-content: center;  
+    flex-direction: column;
+}
+
+ .bath h2{
+    display: flex;
+    text-align: center;
+    justify-content: center; 
+    gap: 25%;
+    flex-direction: row;
+    margin-left: 8vw;margin-right: 8vw;
+} 
+
+
+.lighting{
+    background-color: black;
+    height: 40vh;
+    display: flex;
+    text-align: center;
+    justify-content: center; 
+    gap: 13%;
+}
+.lighting img{
+    height: 40vh; width: 20vw;
+    flex-direction: row;
+    border-radius: 20%;
+    justify-content: space-between; 
+    ;
+}
+.lightingh1{
+    display: flex;
+    justify-content: center; 
+    margin-top: 20vh; margin-bottom: 18vh;
+    font-size: 2rem;
+}
+
+.lighting h2{
+    display: flex;
+    text-align: center;
+    justify-content: center; 
+    gap: 22%;
+    flex-direction: row;
+    
+}
+
+.bathh1{
+    display: flex;
+    justify-content: center; 
+    margin-top: 20vh; margin-bottom: 18vh;
+    font-size: 2rem;
+}
+
+.Furniture{
+    background-color: black;
+    height: 40vh;
+    display: flex;
+    text-align: center;
+    justify-content: center; 
+    gap: 7%;
+    padding-left: 5vw;
+}
+.Furniture img{
+    height: 40vh; width: 20vw;
+    flex-direction: row;
+    border-radius: 20%;
+    justify-content: space-between; 
+    ;
+}
+.Furnitureh1{
+    display: flex;
+    justify-content: center; 
+    margin-top: 20vh; margin-bottom: 18vh;
+    font-size: 2rem;
+}
+
+.Furniture h2{
+    display: flex;
+    text-align: center;
+    justify-content: center; 
+    gap: 22%;
+    flex-direction: row;
+
+}
+
+.lighting img{
+    height: 40vh; width: 20vw;
+    flex-direction: row;
+    border-radius: 20%;
+}
+
+.bottom{
+    background-color: #97DECE;
+    height: 50vh;
+    margin-top: 30vh;
+   
+}
+.sociallogos{
+
+    flex-direction: row;
+ display: flex;
+ justify-content: center;
+ justify-content: space-around;
+}
+.sociallogos img{
+     height: 30vh; width: 15vw; 
+     margin-top: 5vh;
+   
+}
+
+
+
+
+@media screen and (max-width: 768px){
+    
+    .logo img{
+         display: flex;
+        justify-content: center;  
+        width: 100%;
+    }
+    .content {
+        display: flex;
+        flex-direction: column
+    }
+    .toolbar{
+        display: flex;
+        flex-direction: row;
+        gap: 5%;
+        align-items: flex-end;
+        height: 10vh;
+}
+.toolbar a{
+    font-size: 0.8rem;
+    text-align: center;
+}
+.bath{
+flex-direction: column;
+margin-top: 30vh;
+}
+.bath img{
+    height: 20vh; width: 25vw;
+    flex-direction: row;
+    border-radius: 20%;
+
+}
+
+ .bathh1 h1{
+    display: flex;
+     margin-bottom: 12vh; 
+    margin-top: -14vh;
+    text-align: center;
+    justify-content: center; 
+    font-size: 3rem;
+} 
+
+.lighting{
+    flex-direction: column;
+    margin-top: 30vh;
+    }
+    .lighting img{
+        height: 20vh; width: 25vw;
+        flex-direction: row;
+        border-radius: 20%;
+    }
+    .lightingh1{
+        text-align: center;
+        justify-content: center; 
+    }
+     .lightingh1 h1{
+        display: flex;
+        margin-bottom: 14vh;
+        margin-top: 14vh;
+        text-align: center;
+        justify-content: center;
+        font-size: 3rem; 
+    } 
+
+    .Furniture{
+        flex-direction: column;
+        margin-top: 30vh;
+        }
+        .Furniture img{
+            height: 20vh; width: 25vw;
+            flex-direction: row;
+            border-radius: 20%;
+        }
+        .Furnitureh1{
+            text-align: center;
+            justify-content: center; 
+        }
+         .Furnitureh1 h1{
+            display: flex;
+            margin-bottom: 14vh;
+            margin-top: 14vh;
+            text-align: center;
+            justify-content: center;
+            font-size: 3rem; 
+        } 
+
+.background{
+overflow: hidden; 
+position: relative;
+background-position: center;
+background-repeat: no repeat;
+background-size: contain;
+width: 100vw; height: 100vh; 
+} 
+
+.bottom{
+    background-color: #97DECE;
+    height: 90vh;
+    margin-top: 35vh;
+   text-align: center;
+}
+.sociallogos{
+
+    flex-direction: column;
+ display: flex;
+ justify-content: center;
+ justify-content: space-around;
+ 
+}
+.sociallogos img{
+     height: 10vh; width: 22vw; 
+   
+}
+
+#backgroundvideo {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+}

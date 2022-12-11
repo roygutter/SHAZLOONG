@@ -1,0 +1,91 @@
+body{
+    background-color: black; 
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: #97DECE;
+   display: flex;
+   flex-direction: column;
+}
+.logo {
+    display: flex;
+    justify-content: center; 
+    background-color: #97DECE !important;
+    
+}
+.tittle {
+    display: flex;
+    justify-content: center; 
+    text-align: center;
+    font-size: 2rem;
+}
+.trashbinimage{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.trashbinimage  img{
+    display: flex;
+border-radius: 15%;
+gap: 10%;
+}
+
+ .trashBinOptaions{
+    display: flex;
+    flex-direction: column;
+ text-align: center;
+ 
+} 
+
+
+  #black{
+    display: none;
+}
+#pink{
+    display: none;
+}
+
+#blackbin:hover ~ #white{
+display: none;
+}
+#blackbin:hover ~ #black{
+    display: block;
+}
+    #pinkbin:hover ~ #pink{
+        display: block;
+    }
+    #pinkbin:hover ~ #white{
+        display: none;
+        }
+#blackbin{
+    width: 15vw;
+    height: 25vh;
+}
+#pinkbin{
+    height: 25vh;
+    width: 15vw;
+}
+ #whitebin{
+    height: 25vh;
+    width: 15vw;
+} 
+.ravid {
+    height: 30vh; width: 20vw;
+}
+
+
+
+.bottom{
+    background-color: #97DECE;
+height: 50vh;
+}
+.sociallogos{
+
+    flex-direction: row;
+ display: flex;
+ justify-content: center;
+ justify-content: space-around;
+}
+.sociallogos img{
+     height: 30vh; width: 15vw; 
+     margin-top: 5vh;
+   
+}
